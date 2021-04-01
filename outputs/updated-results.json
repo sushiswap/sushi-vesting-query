@@ -1,0 +1,212 @@
+[
+ {
+  "contract": "0x7a56d65254705b4def63c68488c0182968c452ce",
+  "balance": "918082123775064108171264",
+  "name": "AdminUpgradeabilityProxy"
+ },
+ {
+  "contract": "0xd5d2adcb5e6ad20425b0650e4050c0ea9ec3cec0",
+  "balance": "733621499085249117683712",
+  "name": "StrategyProxy"
+ },
+ {
+  "contract": "0xd6419fd982a7651a12a757ca7cd96b969d180330",
+  "balance": "534015428594221468090368",
+  "name": "SushiswapGoblin"
+ },
+ {
+  "contract": "0x895cc1b32aa6f5fedf0e113eac556309ad225322",
+  "balance": "475731253468280928600064",
+  "name": "StrategyProxy"
+ },
+ {
+  "contract": "0x180a71c5688ac7e2368890ef77b0036af8e261b6",
+  "balance": "471411048477694397251584",
+  "name": "StrategyProxy"
+ },
+ {
+  "contract": "0xf134fdd0bbce951e963d5bc5b0ffe445c9b6c5c6",
+  "balance": "440466559538342467207168",
+  "name": "SushiswapGoblin"
+ },
+ {
+  "contract": "0xdd1dfbb5a580e96c2723ccaf687227900f97f053",
+  "balance": "345261365616385493827584",
+  "name": "StrategyProxy"
+ },
+ {
+  "contract": "0x3c2bbb353b48d54b619db8ac6aa642627fb800e3",
+  "balance": "279106410755635311280128",
+  "name": "SushiswapPool12Goblin"
+ },
+ {
+  "contract": "0xd902a3bedebad8bead116e8596497cf7d9f45da2",
+  "balance": "274620126200884124188672",
+  "name": "SushiswapGoblin"
+ },
+ {
+  "contract": "0xcfbd9eeac76798571ed96ed60ca34df35f29ea8d",
+  "balance": "265551440663760234086400",
+  "name": "SushiswapGoblin"
+ },
+ {
+  "contract": "0xd12d68fd52b54908547ebc2cd77ec6ebbefd3099",
+  "balance": "239374314894674622414848",
+  "name": "MasterVampire"
+ },
+ {
+  "contract": "0x54a2c35d689f4314fa70dd018ea0a84c74506925",
+  "balance": "220882857601990324649984",
+  "name": "SushiswapGoblin"
+ },
+ {
+  "contract": "0x19b3eb3af5d93b77a5619b047de0eed7115a19e7",
+  "balance": "206123805552196664164352",
+  "name": "Proxy"
+ },
+ {
+  "contract": "0x6d0eb60d814a21e2bed483c71879777c9217aa28",
+  "balance": "170346771415138029273088",
+  "name": "SushiswapGoblin"
+ },
+ {
+  "contract": "0x373ae78a14577682591e088f2e78ef1417612c68",
+  "balance": "101956614786332248506368",
+  "name": "WMasterChef"
+ },
+ {
+  "contract": "0xd67c05523d8ec1c60760fd017ef006b9f6e496d0",
+  "balance": "98630190684150110879744",
+  "name": "YAMIncentivizerWithVoting"
+ },
+ {
+  "contract": "0xbb4755673e9df77f1af82f448d2b09f241752c05",
+  "balance": "73617617255596170412032",
+  "name": "SushiswapGoblin"
+ },
+ {
+  "contract": "0xa7120893283cc2aba8155d6b9887bf228a8a86d2",
+  "balance": "65985212275514379599872",
+  "name": "SushiswapGoblin"
+ },
+ {
+  "contract": "0x3a494d79aa78118795daad8aeff5825c6c8df7f1",
+  "balance": "59711429939015012319232",
+  "name": "AdminUpgradeabilityProxy"
+ },
+ {
+  "contract": "0x53df6664b3dde086dce6315c317d1002b14b87e3",
+  "balance": "59686293406433484472320",
+  "name": "SushiMasterChefLPStrategy"
+ },
+ {
+  "contract": "0x4a49985b14bd0ce42c25efde5d8c379a48ab02f3",
+  "balance": "55255527790547046498304",
+  "name": "Proxy"
+ },
+ {
+  "contract": "0x35952c82e146da5251f2f822d7b679f34ffa71d3",
+  "balance": "38888614895246184022016",
+  "name": "SushiswapGoblin"
+ },
+ {
+  "contract": "0x5807424c47ea796d4c6be03b840ccc8c8a642711",
+  "balance": "36953652149713767497728",
+  "name": "StrategySushiEthYVeCrvLp"
+ },
+ {
+  "contract": "0x69fe7813f804a11e2fd279eba5dc1ecf6d6bf73b",
+  "balance": "21824383166106430341120",
+  "name": "SushiswapGoblin"
+ },
+ {
+  "contract": "0x37ef9c13faa609d5eee21f84e4c6c7bf62e4002e",
+  "balance": "18308223149167926575104",
+  "name": "SushiswapGoblin"
+ },
+ {
+  "contract": "0x859eefc267671595d987d0f6589d7771d4877113",
+  "balance": "17625505251394668462080",
+  "name": "Proxy"
+ },
+ {
+  "contract": "0xf8a8d25049ebfaf36cf1dd7ff51ebd0777fc9b32",
+  "balance": "14845967970850849161216",
+  "name": "AppProxyUpgradeable"
+ },
+ {
+  "contract": "0xaa394e08c74e2b2f76ff000adeb25f20423cfe2a",
+  "balance": "14136790981314990833664",
+  "name": "Proxy"
+ },
+ {
+  "contract": "0x4a25e18076ddcfd646ed14abc07286c2a4c1256a",
+  "balance": "13954343376516542365696",
+  "name": "Proxy"
+ },
+ {
+  "contract": "0x34ddfc06ce0c39242fb380066ee01e409a4a525e",
+  "balance": "13687795011135037505536",
+  "name": "Proxy"
+ },
+ {
+  "contract": "0x8785a589237a8699afaaf5deb407010db0950043",
+  "balance": "12834615986443507466240",
+  "name": "StrategySushiEthYfiLp"
+ },
+ {
+  "contract": "0xaa8dddfe7dfa3c3269f1910d89e4413dd006d08a",
+  "balance": "11924996741493283618816",
+  "name": "AdminUpgradeabilityProxy"
+ },
+ {
+  "contract": "0xd532944df6dfd5dd629e8772f03d4fc861873abf",
+  "balance": "11107043511343935127552",
+  "name": "CErc20Delegator"
+ },
+ {
+  "contract": "0x10d2740ffb6c38f14221df8346d07253cef8902d",
+  "balance": "11089507633706085384192",
+  "name": "StrategySushiEthUsdtLp"
+ },
+ {
+  "contract": "0xced8eed93677bcf0100f05a38d5b0b2761b09f26",
+  "balance": "11065767427351947247616",
+  "name": "StrategySushiEthWBtcLp"
+ },
+ {
+  "contract": "0x8fc4c0566606aa0c715989928c12ce254f8e1228",
+  "balance": "11002833084608583565312",
+  "name": "SushiswapGoblin"
+ },
+ {
+  "contract": "0x8e4e4cfca2ff1db24708dfae8c97385cc63149e1",
+  "balance": "10338817116193977008128",
+  "name": "StrategySushiEthDaiLp"
+ },
+ {
+  "contract": "0x8c5cecc9abd8503d167e6a7f2862874b6193e6e4",
+  "balance": "9167449205677257392128",
+  "name": "SushiswapGoblin"
+ },
+ {
+  "contract": "0xaa430e7886b60a925ac77e79e91924ce544b0690",
+  "balance": "8787107772407629217792",
+  "name": "StrategySushiEthUsdcLp"
+ },
+ {
+  "contract": "0x47744b96f799a61874a3cd73b394b7feaa6c3e19",
+  "balance": "8700595331521487831040",
+  "name": "UpgradableProxy"
+ },
+ {
+  "contract": "0x923ca6dcef62030bed25aa3ef854f39dc45dda65",
+  "balance": "7503778047679275204608",
+  "name": "StrategyProxy"
+ },
+ {
+  "contract": "0xd7b25a928f2de0beff34247a42fcb219b04323cc",
+  "balance": "6970846546872123785216",
+  "name": "AppProxyUpgradeable"
+ }
+]
