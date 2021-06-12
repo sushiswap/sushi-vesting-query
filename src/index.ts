@@ -93,8 +93,14 @@ function redirect(data: Data) {
     data.beginning.users.forEach(user => {
         user.address = redirects.find(redirect => user.address === redirect.from)?.to ?? user.address;
     });
+    data.beginning.claims.forEach(claim => {
+        claim.id = redirects.find(redirect => claim.id === redirect.from)?.to ?? claim.id;
+    });
     data.end.users.forEach(user => {
         user.address = redirects.find(redirect => user.address === redirect.from)?.to ?? user.address;
+    });
+    data.end.claims.forEach(claim => {
+        claim.id = redirects.find(redirect => claim.id === redirect.from)?.to ?? claim.id;
     });
     return data;
 }
