@@ -158,7 +158,7 @@ function finalize(usersBeginning: UsersConsolidated, usersEnd: UsersConsolidated
                     vested: BigInt(Math.floor((vested - claimed) * 1e18))
                 })
             })
-            .filter(user => user.vested >= BigInt(0))
+            .filter(user => user.vested > BigInt(0))
             .map(user => ({[user.address]: String(user.vested)}))
             .reduce((a, b) => ({...a, ...b}), {}),
 
