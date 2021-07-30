@@ -51,9 +51,17 @@ function redirect(data) {
         var _a, _b;
         user.address = (_b = (_a = redirects_json_1.default.find(redirect => user.address === redirect.from)) === null || _a === void 0 ? void 0 : _a.to) !== null && _b !== void 0 ? _b : user.address;
     });
+    data.beginning.claims.forEach(claim => {
+        var _a, _b;
+        claim.id = (_b = (_a = redirects_json_1.default.find(redirect => claim.id === redirect.from)) === null || _a === void 0 ? void 0 : _a.to) !== null && _b !== void 0 ? _b : claim.id;
+    });
     data.end.users.forEach(user => {
         var _a, _b;
         user.address = (_b = (_a = redirects_json_1.default.find(redirect => user.address === redirect.from)) === null || _a === void 0 ? void 0 : _a.to) !== null && _b !== void 0 ? _b : user.address;
+    });
+    data.end.claims.forEach(claim => {
+        var _a, _b;
+        claim.id = (_b = (_a = redirects_json_1.default.find(redirect => claim.id === redirect.from)) === null || _a === void 0 ? void 0 : _a.to) !== null && _b !== void 0 ? _b : claim.id;
     });
     return data;
 }
@@ -102,7 +110,7 @@ function finalize(usersBeginning, usersEnd, totalVested, claims) {
                 vested: BigInt(Math.floor((vested - claimed) * 1e18))
             });
         })
-            .filter(user => user.vested >= BigInt(0))
+            .filter(user => user.vested > BigInt(0))
             .map(user => ({ [user.address]: String(user.vested) }))
             .reduce((a, b) => ({ ...a, ...b }), {}),
         blacklisted: users
